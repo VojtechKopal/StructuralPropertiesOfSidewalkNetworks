@@ -8,6 +8,7 @@
 %\usepackage[czech]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage{color}
+\usepackage{graphicx}
 \usepackage{tikz}
 \usetikzlibrary{graphs}
 \usetikzlibrary{graphs.standard}
@@ -17,6 +18,7 @@ nodes={circle,draw,semithick, scale=0.5}}
 %\useinnertheme{circles}
 \usepackage{subfigure}
 \usepackage{minted}
+\usepackage{animate}
 \usepackage[czech,slovak,english]{babel}%\useinnertheme{rounded}
 \usepackage{soul}
 %\useinnertheme{rectangles}
@@ -56,6 +58,22 @@ nodes={circle,draw,semithick, scale=0.5}}
 \end{frame}
 
 \section{Thesis Goals and Motivation}
+\begin{frame}{VBS Blue}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.75\linewidth]{img/VBSBlue1.png}
+        \caption{VBS Blue}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{VBS Blue}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.7\linewidth]{img/VBSBlue2.png}
+        \caption{VBS Blue}
+    \end{figure}
+\end{frame}
+
 \begin{frame}{Thesis Motivation}
 
 \begin{itemize}
@@ -374,6 +392,28 @@ nodes={circle,draw,semithick, scale=0.5}}
  	Santa Cruz, CA, USA & 13\,060 & 14\,494 & 7\,135 & 6\,530   &   13\,059  &   9.27 \%	 \tabularnewline
 \end{tabular}}
 \end{table}
+\end{frame}
+
+\begin{frame}{Error with Simple Loops}
+    \begin{itemize}
+        \item There was an inconsistency in counting simple loops (edges starting and ending in the same vertex) in the graphs between measured properties
+        \item Number of loops in graphs is relatively small, therefore the main takeaways from the measurements are still valid
+    \end{itemize}
+    \begin{table}
+    \begin{tabular}{l|c|c}
+	\textbf{Dataset} & $\|\mathbf{E}\|$& Number of Loops  \tabularnewline \hline \hline
+ 	Černý Most, PRG, CZE & 1\,893 & 2 \tabularnewline \hline
+ 	Cēsis, LAT	& 1\,244	& 3 \tabularnewline \hline
+ 	College Park, MD, USA & 6\,392 & 6 \tabularnewline \hline
+ 	Dejvice, PRG, CZE & 1\,907 & 6 \tabularnewline \hline
+ 	Grenoble, FRA & 11\,688 & 21  \tabularnewline \hline
+    Helsinki, FIN & 123\,291 & 159 \tabularnewline \hline
+ 	Karlín, PRG, CZE & 1\,364 & 3 \tabularnewline \hline
+ 	Raleigh, NC, USA & 39\,930 & 59 \tabularnewline \hline
+ 	San Sebastián, ESP & 4\,961 & 11 \tabularnewline \hline
+ 	Santa Cruz, CA, USA  & 14\,494 &60 \tabularnewline
+  \end{tabular}
+  \end{table}
 \end{frame}
 
 \begin{frame}{Used Scripts and Data}
