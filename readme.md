@@ -1,0 +1,1 @@
+This is a repository for a bachelor thesis Structural Properties of Sidewalk Netowrks made by Vojtěch Kopal with supervision from Ing. Šimon Schierreich on FIT CTU (Department of Theoretical Computer Science), for more information visit dspace.
